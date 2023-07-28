@@ -10,7 +10,7 @@ const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'ecommerce',
-  description: 'ecommerce frontend',
+  description: 'ecommerce ',
 }
 
 
