@@ -5,6 +5,7 @@ import { Category } from '@/types'
 import Link from 'next/link'
 import {usePathname}from 'next/navigation'
 
+
 interface MainNavProps{
     data:Category[]
 }
@@ -24,12 +25,13 @@ const routes=data.map((route:any)=>({
                 <Link href={route.href}
                 key={route.href}
                 className={cn(
-                    "text-sm font-medium transition-colors hover:text-black",
-                    route.active?"text-black":"text-neutral-500"
+                    "text-sm md:text-lg capitalize font-medium transition-colors ",
+                    route.active?" dark:text-white text-gray-500":"text-neutral-500"
                 )}>
                 {route.label}</Link>
             ))
         }
+     
     </nav>
   )
 }

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import MainNav from './MainNav'
 import getCategories from '@/actions/GetCategories'
 import NavbarActions from './NavbarActions'
+import { ThemeToggle } from './ThemeToggle'
 
 const Navbar =async () => {
 
@@ -21,6 +22,7 @@ const Navbar =async () => {
 
         <MainNav data={categories}/>
 
+<ThemeToggle/>
 
 <NavbarActions/>
 </div>
