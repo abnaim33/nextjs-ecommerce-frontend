@@ -26,8 +26,8 @@ export default function RootLayout({
       <body className={font.className}>
       <ThemeProvider
 attribute="class" 
-defaultTheme="system" 
-enableSystem
+// defaultTheme="system" 
+// enableSystem
         >
       <ToastProvider/>
       <ModalProvider/>

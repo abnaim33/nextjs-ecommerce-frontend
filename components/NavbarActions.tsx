@@ -23,9 +23,9 @@ if(!isMounted){
     <div className='ml-auto flex items-center gap-x-4'>
         <Button
         onClick={()=>router.push("/cart")}
-        className="flex items-center rounded-full bg-black px-4 py-2">
-            <ShoppingBag size={20} color="white"/>
-            <span className="ml-2 text-sm font-medium text-white">
+        className="flex items-center rounded-full bg-black dark:bg-white px-4 py-2">
+            <ShoppingBag size={20} className="text-white dark:text-black"/>
+            <span className="ml-2 text-sm font-medium text-white dark:text-black">
                 {cart.items.length}
             </span>
         </Button>

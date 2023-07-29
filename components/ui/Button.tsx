@@ -20,6 +20,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
         w-auto 
         rounded-full 
         bg-black
+        dark:bg-white
         border
         border-transparent
         px-5 
@@ -27,6 +28,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
         disabled:cursor-not-allowed 
         disabled:opacity-50
         text-white
+        dark:text-black
         font-semibold
         hover:opacity-75
         transition
